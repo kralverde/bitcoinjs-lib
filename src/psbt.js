@@ -709,7 +709,6 @@ function isPaymentFactory(payment) {
       payment({ output: script });
       return true;
     } catch (err) {
-      console.log(err);
       return false;
     }
   };

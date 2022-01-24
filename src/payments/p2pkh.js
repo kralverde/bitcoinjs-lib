@@ -19,7 +19,7 @@ function p2pkh(a, opts) {
       network: types_1.typeforce.maybe(types_1.typeforce.Object),
       address: types_1.typeforce.maybe(types_1.typeforce.String),
       hash: types_1.typeforce.maybe(types_1.typeforce.BufferN(20)),
-      output: types_1.typeforce.maybe(types_1.typeforce.BufferN(25)),
+      output: types_1.typeforce.maybe(Buffer),
       pubkey: types_1.typeforce.maybe(types_1.isPoint),
       signature: types_1.typeforce.maybe(bscript.isCanonicalScriptSignature),
       input: types_1.typeforce.maybe(types_1.typeforce.Buffer),
