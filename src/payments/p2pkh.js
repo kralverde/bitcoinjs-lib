@@ -92,7 +92,7 @@ function p2pkh(a, opts) {
     }
     if (a.output) {
       if (
-        a.output.length !== 25 ||
+        //a.output.length !== 25 ||
         a.output[0] !== OPS.OP_DUP ||
         a.output[1] !== OPS.OP_HASH160 ||
         a.output[2] !== 0x14 ||
