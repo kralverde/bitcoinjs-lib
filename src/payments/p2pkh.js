@@ -3,7 +3,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 exports.p2pkh = void 0;
 const bcrypto = require('../crypto');
 const networks_1 = require('../networks');
-const bscript = require('../script');
+const bscript = require('../script'); 
 const types_1 = require('../types');
 const lazy = require('./lazy');
 const bs58check = require('bs58check');
